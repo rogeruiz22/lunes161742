@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class EntrarSalesforce {
 
     @Test
-    public static void salesforceLogin() {
+    public static void hacerLogin() {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.google.com");
