@@ -1,8 +1,8 @@
 package paquete;
 
-public class BaseTest {
+public class TestBase {
     public static void main(String[] args) {
-        EntrarSalesforce login = new EntrarSalesforce();
+        Test login = new Test();
         login.hacerLogin();
     }
 
